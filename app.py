@@ -5,10 +5,10 @@ from Bio.PDB import PDBParser
 import tempfile
 import os
 
-st.set_page_config(page_title="3DI Structure Predictor", layout="wide")
+st.set_page_config(page_title="3Di Predictor", layout="wide")
 
-st.title("3DI Structure Predictor")
-st.write("Upload a PDB file to predict its 3DI structure")
+st.title("3Di Sequence Predictor")
+st.write("Upload a PDB file to predict its 3Di structure")
 
 def predict_3di(uploaded_file):
     encoder = mini3di.Encoder()
