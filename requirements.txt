@@ -1,3 +1,8 @@
-gradio>=3.50.2
-biopython==1.79
+# Core dependencies
+streamlit>=1.22.0
+numpy>=1.19.0
+wheel>=0.38.4
+
+# Bio-related dependencies
+biopython==1.81  # Using a more stable version
 mini3di==0.1.0
