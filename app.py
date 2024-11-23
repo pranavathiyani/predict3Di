@@ -8,7 +8,7 @@ import os
 st.set_page_config(page_title="3Di Predictor", layout="wide")
 
 st.title("3Di Sequence Predictor")
-st.write("Upload a PDB file to predict its 3Di structure")
+st.write("Upload a PDB file to predict its 3Di")
 
 def predict_3di(uploaded_file):
     encoder = mini3di.Encoder()
